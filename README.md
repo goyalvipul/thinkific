@@ -12,12 +12,12 @@ Setup Steps:
           Click on the module on the window which opens to run the tests.
           
 
-# Tech Stack
+# Framework Tech Stack
 - Cypress - UI Automation
 - BDD - Cucumber
 - Language - JavaScript
 
-# Why Cucumber: Value Addition
+# Why Cucumber: {Value Addition to the framework}
 1. Used cucumber in the project, so as to make it better to understand what is been automated.
 2. It helps to maps the Manual Test cases with Automation cases.
 3. It also helps to understand important business level use cases, by the ones who are managerial stakeholders.
@@ -44,8 +44,9 @@ Setup Steps:
 
 # Tags usage
 @positive, @negative
-
+This can be executed using tags as well, forming groups of test cases.
 
 # Parralel Execution
 1. Tried coming up with parrallel execution process using cypress, but is not completely functional.
 2. Added the required command and some dependencies, which can be modified when required.
+
