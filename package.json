@@ -1,0 +1,28 @@
+{
+  "name": "cypress-cucumber-example",
+  "version": "1.0.0",
+  "description": "Example of cypress with cucumber",
+  "main": "index.js",
+  "ci:serve": "ng build --prod && http-server dist -p 4200",
+  "cypress:run": "cypress run --record --parallel --reporter teamcity",
+  "scripts": {
+    "test": "cypress run",
+    "e2e:record:parallel": "cypress run --record --parallel --browser chrome"
+  },
+  "keywords": [
+    "cypress",
+    "cucumber",
+    "testing"
+  ],
+  "dependencies": {},
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "devDependencies": {
+    "cypress": "^6.6.0",
+    "cypress-cucumber-preprocessor": "^2.5.5",
+    "cypress-plugin-tab": "^1.0.4",
+    "cypress-wait-until": "^1.6.0",
+    "cypress-xpath": "^1.4.0"
+  }
+}
