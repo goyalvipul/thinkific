@@ -11,6 +11,8 @@ Setup Steps:
           ./node_modules/.bin/cypress open
           Click on the module on the window which opens to run the tests.
           
+# Test Cases Path:
+thinkific/cypress/integration/SampleTest/CustomerUsingSearch.feature
 
 # Framework Tech Stack
 - Cypress - UI Automation
