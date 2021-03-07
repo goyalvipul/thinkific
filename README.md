@@ -1,4 +1,4 @@
-# Cypress.Regression.Refactor.CucumbrTests
+# Cypress.Thinkific.SearchFunctionality.CucumbrTests
 
 Setup Steps:
 
